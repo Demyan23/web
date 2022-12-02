@@ -1,0 +1,17 @@
+@import "./normalize.min.css";
+
+@import "./globals.css";
+
+@import "./header.css";
+
+@import "./hero.css";
+
+@import "./info.css";
+
+@import "./technology.css";
+
+@import "./use.css";
+
+@import "./ending.css";
+
+@import "./footer.css";

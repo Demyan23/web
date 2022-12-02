@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul{
+    display: flex;
+}
+
+.login{
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header__nav-item{
+    margin-right: 37px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+}
+
+.header__title{
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.header__try_free{
+    box-sizing: border-box;
+    width: 118.51px;
+    border: 1.03958px solid #1943EF;
+    border-radius: 33.9597px;
+    font-size: 11.0889px;
+    color: #1943EF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+

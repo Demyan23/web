@@ -1,0 +1,82 @@
+.container__info{
+    justify-content: space-between;
+    display: flex;
+    width:auto;
+    height: auto;
+    margin-top: 117px;
+    padding-bottom: 200px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.request__info{
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(155, 151, 151, 0.26);
+    border-radius: 30.6333px;
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+}
+
+.opportunity span{
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 17px;
+    color: #73738D;
+}
+
+.request__info img{
+    height: 33.266666412353516px;
+    width: 33.266666412353516px;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.colorText1 {
+    color: #222222;
+    font-weight: bold;
+}
+.colorText2 {
+    color: #26C296;
+}
+
+.information {
+    width: 343px;
+    margin-right: 0;
+    margin-left: 41px;
+
+}
+.information h2 {
+    margin-top: 16px;
+    color:#000;
+}
+
+.information p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 22px;
+    color: #73738D;
+
+}
+
+.opportunities {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.opportunity {
+    margin-top: 16px;
+}
+

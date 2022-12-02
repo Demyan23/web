@@ -1,0 +1,81 @@
+.technology{
+    margin-top: 28px;
+}
+
+.container__technology{
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.technology__intro{
+    width: 369px;
+    margin-right: 52px;
+}
+
+.technology__intro h2{
+    width: 368px;
+    margin-right: 52px;
+    font-weight: 700;
+    font-size: 24.95px;
+    line-height: 30px;
+    color: #222222;
+}
+
+.technology__intro p{
+    margin-top: 16px;
+    width: 343px;
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 22px;
+    color: #73738D; 
+}
+
+.technologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 4px;
+}
+
+.possibility {
+    margin-top: 15%;
+}
+
+.example {
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 20.7917px;
+    width: 400.07px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.example img {
+    margin-top: 22px;
+    margin-left: 17px;
+}
+.example h3 {
+    color:#000;
+    margin-left: 70px;
+    margin-top: -45px;
+}
+
+.example p {
+    color: #222222CC;
+    margin-left: 70px;
+    margin-top: auto;
+}
+
+.example li{
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: rgba(34, 34, 34, 0.8);
+}
+
+.possibility span{
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 17px;
+    color: #73738D;
+}
