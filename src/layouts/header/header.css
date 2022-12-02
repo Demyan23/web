@@ -1,0 +1,48 @@
+header {
+    height: 15vh;
+    padding: 0 10vw;
+    background-color: #43b02a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotype {
+    width: 5%;
+}
+
+header h1 {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 10%;
+}
+
+header a {
+    color: white;
+    font-size: x-large;
+    font-style: inherit;
+    text-decoration: none;
+}
+
+header a:hover {
+    -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.cart:hover {
+    -webkit-transform: scale(1.5); 
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.user:hover {
+    -webkit-transform: scale(1.5); 
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}

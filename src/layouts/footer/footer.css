@@ -1,0 +1,66 @@
+footer {
+    margin-top: 25%;
+    height: 25vh;
+    padding: 0 10vw;
+    background-color: #43b02a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warning  {
+    height: 60%;
+}
+
+
+.warning h2 {
+    margin-top: 5%;
+}
+
+.warning p {
+    color: white;
+    font-size: x-small;
+    margin-left: 30%;
+    margin-top: 7%;
+    
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.social-networks img {
+    height: 100%;
+}
+
+.facebook * {
+    fill: white;
+}
+
+.facebook:hover {
+    -webkit-transform: scale(1.5); 
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.twitter {
+    fill: #03A9F4;
+}
+
+.twitter:hover {
+    -webkit-transform: scale(1.5); 
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.instagram {
+    fill: purple;
+}
+
+.instagram:hover {
+    -webkit-transform: scale(1.5); 
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}

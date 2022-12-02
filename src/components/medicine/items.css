@@ -1,0 +1,50 @@
+.main-chapter {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50%;
+    display: grid;
+    padding: 5vh 1vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vh;
+    margin-left: 25%;
+    width: 67%;
+    margin-bottom: -10%;
+}
+
+.item h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.item img {
+    width: 100%;
+    height: 60%;
+}
+
+.item {
+    border: #43b02a 3px solid;
+    height: 95%;
+    border-radius: 8px;
+}
+
+.button-medicine {
+    border: #43b02a 1px solid;
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+}
+
+.button-medicine:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
