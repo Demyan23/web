@@ -1,0 +1,189 @@
+#benefits {
+    height: 45vh;
+    margin-top: 4%;
+    padding: 0 10vw;
+    
+}
+
+.container__benefits {
+    height: 25vw;
+    width: 80vw;
+    display: flex;
+}
+
+.firstBenefit {
+    display: flex;
+    margin: 2% 2% 0 0;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 8%;
+    margin-left: 0%;
+    border-radius: 20.7917px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+}
+
+.firstBenefit h3 {
+    color: #222222;
+    margin-top: 5%;
+    margin-left: 3%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.subtitle {
+    margin-top: -3%;
+}
+
+.firstBenefit p {
+    color: #73738D;
+    margin-left: 3%;
+}
+
+.secondBenefit {
+    display: flex;
+    margin-right: 0;
+    width: 50%;
+}
+
+.secondBenefit h2 { 
+    margin-top: 8%;
+    margin-left: -10%;
+    height: 10%;
+    width: 95%;
+    color: #222222;
+}
+
+.secondBenefit p {
+    width: 75%;    
+    margin-left: -95%;
+    margin-top: 25%;
+}
+
+.fontForVirus {
+    background: #E4F7F2;
+    border-radius: 31.8806px;
+    margin-left: 10%;
+    height: 8%;
+    
+}
+
+@media (min-width: 993px) {
+    .firstBenefit h3 {
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .firstBenefit p {
+        margin-top: 2%;
+        font-size: calc(2px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .secondBenefit h2 {
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .secondBenefit p {
+        font-size: calc(2px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .fontForVirus {
+        width: calc(17px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+        height: calc(17px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .fontForVirus img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container__benefits {
+        margin-left: 1%;
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .firstBenefit p {
+        width: 100%;
+    }
+
+    .fontForVirus {
+        background-color: #FFFFFF;
+    }
+}
+
+@media (max-width: 768px) {
+    .firstBenefit {
+        height: 90%;
+    }
+
+    .firstBenefit h3 {
+        height: 10%;
+    }
+
+    .firstBenefit p {
+        margin-top: -10%;
+    }
+
+    .fontForVirus {
+        display: none;
+    }
+
+    .secondBenefit {
+        margin-left: 10%;
+    }
+
+    .secondBenefit p {
+        margin-top: 32%;
+    }
+    .container__benefits {
+        height: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container__benefits {
+        flex-wrap: wrap;
+    }
+
+    .firstBenefit {
+        width: 100%;
+        margin-top: 0;
+        height: 55%;
+    }
+
+    .firstBenefit h3 {
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+
+    .secondBenefit {
+        width: 100%;
+        margin-left: 0%;   
+    }
+
+    .secondBenefit h2 {
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .secondBenefit p {
+        margin-top: 8%;
+    }
+}
+
+@media (max-width: 360px) {
+    .container__benefits {
+        margin-top: 25%;
+    }
+
+    .firstBenefit h3 {
+        margin-bottom: 10%;
+    }
+
+    .secondBenefit h2 {
+        font-size: 18px;
+    }
+}

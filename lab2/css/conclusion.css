@@ -1,0 +1,129 @@
+#conclusion {
+    height: 20vh;
+    margin-top: 4%;
+    padding: 0 10vw;
+    
+}
+
+.fontForConclusion {
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 8.31667px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conclusinText {
+    width: 70%;
+}
+
+.fontForConclusion h2 {
+    margin-top: 2%;
+    color: #222222;
+    font-size: 35px;
+}
+
+.tryItForFreeButton {
+    width: 15%;
+    margin-top: 4%;
+    animation-name: riseAndFall;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes riseAndFall {
+    0% {margin-top: 10vh;}
+    50% {margin-top: 5vh;}
+    100% {margin-top: 10vh;}
+}
+
+.tryItForFree {
+    animation-name: overflowing-colours;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes overflowing-colours {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.tryItForFree {
+    background: #26C296;
+    border-radius: 33.9597px;
+    border: #FFFFFF;
+    color: #FFFFFF;
+    width: 100%;
+    height: 45%;
+}
+
+@media (min-width: 993px) {
+    .conclusinText h2 {
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .conclusinText {
+        margin-top: 2%;
+    }
+
+    .conclusinText p {
+        font-size: calc(5px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .tryItForFreeButton {
+        width: 50%;
+        height: 100%;
+    }
+
+    .tryItForFree {
+        font-size: calc(5px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
+
+@media (max-width: 992px) {
+    .tryItForFreeButton {
+        width: 30%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 703px) {
+    .conclusinText h2 {
+        font-size: 25px;
+    }
+
+    .tryItForFreeButton {
+        width: 35%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 577px) {
+    .fontForConclusion {
+        margin-top: 20%;
+    }
+
+    .conclusinText h2 {
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+    .tryItForFreeButton {
+        margin-top: 10%;
+        width: 30%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    .fontForConclusion {
+        font-size: calc(15px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
